@@ -15,3 +15,9 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::get('/test',function(){
+    return view('admin.index');
+});
+Route::get('/chat',function(){
+    return view('chat');
+});
