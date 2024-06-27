@@ -19,6 +19,8 @@
         @vite(['resources/css/app2.css', 'resources/js/app2.js'])
         @vite(['resources/css/chat.css', 'resources/js/chat.js'])
         @vite(['resources/css/profil.css', 'resources/js/profil.js'])
+        @vite(['resources/css/project.css', 'resources/js/project.js'])
+
 
         <!-- Styles -->
         @livewireStyles

@@ -1,6 +1,5 @@
-@extends('layouts.admin')
-@section('content')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.2.96/css/materialdesignicons.min.css" integrity="sha512-LX0YV/MWBEn2dwXCYgQHrpa9HJkwB+S+bnBpifSOTO1No27TqNMKYoAn6ff2FBh03THAzAiiCwQ+aPX+/Qt/Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+@extends('welcome')
+@section('chat')
 
 <div class="container">
     <div class="row clearfix">
@@ -17,42 +16,42 @@
                         <li class="clearfix">
                             <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Vincent Porter</div>
+                                <div class="name">BAMBARA Clemet</div>
                                 <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>
                             </div>
                         </li>
                         <li class="clearfix active">
                             <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Aiden Chavez</div>
+                                <div class="name">Ouedraogo Arnaud</div>
                                 <div class="status"> <i class="fa fa-circle online"></i> online </div>
                             </div>
                         </li>
                         <li class="clearfix">
                             <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Mike Thomas</div>
+                                <div class="name">SINON Idrissa</div>
                                 <div class="status"> <i class="fa fa-circle online"></i> online </div>
                             </div>
                         </li>
                         <li class="clearfix">
                             <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Christian Kelly</div>
+                                <div class="name">Mr BAZIE</div>
                                 <div class="status"> <i class="fa fa-circle offline"></i> left 10 hours ago </div>
                             </div>
                         </li>
                         <li class="clearfix">
                             <img src="https://bootdey.com/img/Content/avatar/avatar8.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Monica Ward</div>
+                                <div class="name">Mr NEBIE</div>
                                 <div class="status"> <i class="fa fa-circle online"></i> online </div>
                             </div>
                         </li>
                         <li class="clearfix">
                             <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="avatar">
                             <div class="about">
-                                <div class="name">Dean Henry</div>
+                                <div class="name">Madame Zongo</div>
                                 <div class="status"> <i class="fa fa-circle offline"></i> offline since Oct 28 </div>
                             </div>
                         </li>
@@ -66,7 +65,7 @@
                                     <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="avatar">
                                 </a>
                                 <div class="chat-about">
-                                    <h6 class="m-b-0">Aiden Chavez</h6>
+                                    <h6 class="m-b-0">Madame SOULAMA</h6>
                                     <small>Last seen: 2 hours ago</small>
                                 </div>
                             </div>
@@ -85,19 +84,19 @@
                                     <span class="message-data-time">10:10 AM, Today</span>
                                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar">
                                 </div>
-                                <div class="message other-message float-right"> Hi Aiden, how are you? How is the project coming along? </div>
+                                <div class="message other-message float-right"> J'aimerai partager un lien </div>
                             </li>
                             <li class="clearfix">
                                 <div class="message-data">
                                     <span class="message-data-time">10:12 AM, Today</span>
                                 </div>
-                                <div class="message my-message">Are we meeting today?</div>
+                                <div class="message my-message">Moi aussi</div>
                             </li>
                             <li class="clearfix">
                                 <div class="message-data">
                                     <span class="message-data-time">10:15 AM, Today</span>
                                 </div>
-                                <div class="message my-message">Project has been already finished and I have results to show you.</div>
+                                <div class="message my-message">Je suis un investisseur interresser</div>
                             </li>
                         </ul>
                     </div>
